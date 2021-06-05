@@ -1,1 +1,9 @@
 # Alpha
+Alpha is TomEpsilon's first solo repository.
+You can care about this little thing, or not. I don't care.
+## Inside
+Inside this thing, you'll see:
+* inter  
+A black and white website, not designed for peoples with epilepsy.
+* rando  
+A website that generates random colors, again not designed for peoples with epilepsy.
