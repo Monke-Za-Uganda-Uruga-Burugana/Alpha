@@ -21,11 +21,10 @@
     <li>Random Color</li>
   </ul>
 <script>
-  $( window ).resize(function() {
-    var w = $(window).width() / 3.5 + "px";
-    $("ul").css("padding-left", w)
-  })
   var w = $(window).width() / 3.5 + "px";
   $("ul").css("padding-left", w)
+  $( window ).resize(function() {
+    $("ul").css("padding-left", w)
+  })
 </script>
 </body>
