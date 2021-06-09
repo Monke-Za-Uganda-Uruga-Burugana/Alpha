@@ -1,5 +1,5 @@
 # Alpha
-Alpha is TomEpsilon's first repository.
+Alpha is [@TomEpsilon](https://github.com/TomEpsilon) and [@NikeryZoggy](https://github.com/NikeryZoggy) first repository.
 You can care about this little thing, or not. I don't care.
 ## Inside
 Inside this thing, you'll see:
