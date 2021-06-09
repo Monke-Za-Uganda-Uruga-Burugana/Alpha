@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\trand\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+    "python.pythonPath": "C:\\Users\\trand\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "svg.preview.background": "black"
 }
