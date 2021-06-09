@@ -1,5 +1,5 @@
 # Alpha
-Alpha is TomEpsilon's first solo repository.
+Alpha is TomEpsilon's first repository.
 You can care about this little thing, or not. I don't care.
 ## Inside
 Inside this thing, you'll see:
