@@ -1,7 +1,7 @@
 import requests
 while True:
   c = "https://api.color.pizza/v1/"
-  i = input("\033[92mEnter hexadecimal value: ")
+  i = input("Enter hexadecimal value: ")
   try:
     i1 = int(i, 16) <= 16777215
   except:
@@ -17,6 +17,6 @@ while True:
       res = requests.get(c + i)
       l = str(str(res.content)[22:])
       l2 = l.find("\"")
-      print("\033[92m" + l[:l2])
+      print("\033[92m"+l[:l2]+"\033[0m")
     else:
-      print("\033[92mThat color was too much for us to handle.")
+      print("That color was too much for us to handle.")
