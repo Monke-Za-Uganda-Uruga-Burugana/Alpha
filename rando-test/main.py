@@ -8,7 +8,7 @@ while True:
     if i == "exit":
       break
     else:
-      print("\033[92mColor not found. Try again.")
+      print("Color not found. Try again.")
   else:
     if i1:
       if len(i) < 6:
@@ -17,6 +17,6 @@ while True:
       res = requests.get(c + i)
       l = res.text[22:]
       l2 = l.find("\"")
-      print("\033[92m"+l[:l2]+"\033[0m")
+      print(l[:l2])
     else:
       print("That color was too much for us to handle.")
