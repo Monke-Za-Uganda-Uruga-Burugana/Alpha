@@ -15,7 +15,7 @@ while True:
         while len(i) < 6:
           i = "0" + i
       res = requests.get(c + i)
-      l = str(str(res.content)[22:])
+      l = res.text[22:]
       l2 = l.find("\"")
       print("\033[92m"+l[:l2]+"\033[0m")
     else:
