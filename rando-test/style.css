@@ -6,14 +6,15 @@ div {
 
 h1 {
   font-family: 'Inter', 'san-serif';
+  text-align: center;
+  font-weight: 900;
 }
-#ae {
-  animation-delay: 3s;
-  animation: o 1s ease-out;
+circle {
+  animation: o 1s ease-out backwards;
 }
 
-#a {
-  animation: o 1s ease-out;
+path {
+  animation: o 1s ease-out 1s backwards;
 }
 
 @keyframes o {
