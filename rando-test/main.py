@@ -1,7 +1,7 @@
 import requests
 while True:
   c = "https://api.color.pizza/v1/"
-  i = input("Enter hexadecimal value: ")
+  i = input("Enter hexadecimal value (enter exit to exit): ")
   try:
    i1 = int(i, 16) <= 16777215
   except:
@@ -15,7 +15,8 @@ while True:
       while len(i) < 6:
         i = "0" + i
      res = requests.get(c + i)
-     l = res.text[22:]
+     print(res.text)
+     l = res.text[20:]
      l2 = l.find("\"")
      print(l[:l2])
    else:
