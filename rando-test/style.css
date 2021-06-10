@@ -1,4 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 div {
   display: flex;
   justify-content: center;
+}
+
+h1 {
+  font-family: 'Inter', 'san-serif';
+}
+#ae {
+  animation-delay: 3s;
+  animation: o 1s ease-out;
+}
+
+#a {
+  animation: o 1s ease-out;
+}
+
+@keyframes o {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
