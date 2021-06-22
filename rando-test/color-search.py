@@ -15,9 +15,8 @@ while True:
       while len(i) < 6:
         i = "0" + i
      res = requests.get(c + i)
-     print(res.text)
-     l = res.text[20:]
-     l2 = l.find("\"")
-     print(l[:l2])
+     print(res.json())
+     l = res.json()["colors"][0]["name"]
+     print(l)
    else:
      print("That color was too much for us to handle.")
